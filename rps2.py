@@ -1,3 +1,4 @@
+#we create a dictionnary for printing the ASCII draw
 rps = {0:'',1:'',2:''}
 rps[0]= """
     _______
