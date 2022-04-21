@@ -1,7 +1,6 @@
 import random
 import os
 import time
-import rps1
 import rps2
 
 def clear():
@@ -66,13 +65,13 @@ def rps():
             clear()
             break  
         elif inp.lower() == "rock":
-            print(rps1.rps[inp.lower()])
+            print(inp.lower())
             player_move = 0
         elif inp.lower() == "paper":
-            print(rps1.rps[inp.lower()])
+            print(inp.lower())
             player_move = 1   
         elif inp.lower() == "scissors":
-            print(rps1.rps[inp.lower()])
+            print(inp.lower())
             player_move = 2
         else:
             clear()
